@@ -4,3 +4,14 @@ docker run \<images-name>:\<version> : runs container from mentioned image
 docker ps : shows all running containers
 docker ps -a: shows all available containers
 docker exec: executes a command in a running container
+
+
+As you can see above, the container was exited. Let’s see the meaning of each column in the output.
+
+CONTAINER ID: shows the unique ID of each container
+IMAGE: the image from which the container is created
+COMMAND: command executed in the container while starting it
+CREATED: the time the container was created
+STATUS: the current status of the container
+PORTS: if any of the container ports is connected to the host machine, it will be displayed here
+NAMES: this is the name of a container. If it is not provided while creating the container, Docker provides a unique name by default.
