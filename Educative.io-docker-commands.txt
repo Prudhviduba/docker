@@ -1,0 +1,6 @@
+
+docker pull \<images-name>:\<version> : pulls image from Docker registry
+docker run \<images-name>:\<version> : runs container from mentioned image
+docker ps : shows all running containers
+docker ps -a: shows all available containers
+docker exec: executes a command in a running container
