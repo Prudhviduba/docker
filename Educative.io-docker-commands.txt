@@ -15,3 +15,6 @@ CREATED: the time the container was created
 STATUS: the current status of the container
 PORTS: if any of the container ports is connected to the host machine, it will be displayed here
 NAMES: this is the name of a container. If it is not provided while creating the container, Docker provides a unique name by default.
+
+
+commit the container by $docker commit -m "<commit message>" <container_id/name> <new_image_name>:<version>.
